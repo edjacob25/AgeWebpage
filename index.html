@@ -1,0 +1,74 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Is the age adequate?</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Is the age adequate?
+      </h1>
+      <p class="subtitle">Find out easily</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column field">
+          <label>Your age</label>
+          <div class="control has-icons-left">
+            <input class="input" type="number" placeholder="Your age" min="18" max="100" id="your_age" />
+            <span class="icon is-small is-left iconify" data-icon="mdi-face-man"></span>
+          </div>
+        </div>
+        <div class="column field">
+          <label>Their age</label>
+          <div class="control has-icons-left">
+            <input class="input" type="number" placeholder="Their age" min="18" max="100" id="their_age" />
+            <span class="icon is-small is-left iconify" data-icon="mdi-face-woman"></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="message hidden" id="result">
+        <div class="message-header">
+          <p id="result_title">
+          </p>
+        </div>
+        <div class="message-body" id="result_text">
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.ts"></script>
+  <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+</body>
+
+</html>

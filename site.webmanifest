@@ -1,0 +1,12 @@
+{
+  "short_name": "AgeAd",
+  "name": "Age adequate",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "##e6e6e6",
+  "theme_color": "##e6e6e6"
+}
